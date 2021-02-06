@@ -1,0 +1,90 @@
+.user-component {
+  justify-content: space-between;
+}
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+  margin-right: 20px;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+/* .user-component__column :first-child {
+  background-color: thistle;
+} */
+.user-component__subtitle {
+  margin-top: 5px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__column__comment {
+  position: relative;
+  display: flex;
+  color: rgba(0, 0, 0, 0.7);
+}
+.user-component__column__comment span {
+  position: absolute;
+  font-size: 40px;
+  left: 5px;
+  top: -7px;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+.nav_newMarker--parent {
+  position: relative;
+}
+.nav_newMarker {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  right: -10%;
+  bottom: 120%;
+}
+.user-component {
+  margin-bottom: 15px;
+}
+
+.user-component__subtitle {
+  display: flex;
+  align-items: center;
+}
+.fa-exclamation {
+  margin-left: 5px;
+  width: 14px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+  border: 2px solid red;
+  color: red;
+  opacity: 0.5;
+  padding-top: 2px;
+}
